@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bakery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">	
+	
+</head>
+<body>
+
+
+<!--*********************** CABEÇALHO ********************* -->
+	<header>
+		<nav id="nav">
+		<h1 id="logo"><img src="img/logo.png"></h1>
+			<ul>
+				<li><a href="#nav">Home</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#receitas">Receitas</a></li>
+				<li><a href="#noticias">Notícias</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<!--****************** BANNER E RECEITAS **********************-->
+
+	<div id="banner">
+		<div id="receitas"> 
+			<ul>
+				<li><figure>
+					<img src="img/cafe.PNG">
+					<figcaption><h3>Curabitur</h3></figcaption>
+				</figure></li>
+				<li><figure>
+					<img src="img/sonho.PNG">
+					<figcaption><h3>Faucibus</h3></figcaption>
+				</figure></li>
+				<li><figure>
+					<img src="img/foleado.PNG">
+					<figcaption><h3>Ullamcorper</h3></figcaption>
+				</figure></li>
+				<li><figure>
+					<img src="img/pao.PNG">
+					<figcaption><h3>Suis libero</h3></figcaption>
+				</figure></li>
+				<li><figure>
+					<img src="img/torta.PNG">
+					<figcaption><h3>Pellentesque</h3></figcaption>
+				</figure></li>
+			</ul>
+		</div>	
+	</div>
+
+
+	<!--********************** SOBRE E NOTÍCIAS **************************-->
+	<div id="sobre" class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-12 col-sm-12 img">
+				<img src="img/sobre.png">
+			</div>
+
+			<div class="sobre col-lg-5 col-md-12 col-sm-12">
+				<h2>Sobre a bakery</h2>
+				<p>Ut vitae volutpat risus. Nam vitae congue odio, mattis dignissim neque. Nam eros sapien, semper in pellentesque ut, suscipit eu nunc. Donec malesuada egestas ligula, non malesuada sapien suscipit ut.</p> 
+
+				<p>Praesent sed ipsum ullamcorper purus scelerisque laoreet. Nulla lobortis ex eu mi accumsan, non hendrerit ex rhoncus. Etiam auctor libero porttitor tellus imperdiet consequat. Nam porttitor diam in eleifend fringilla.</p>
+
+				<h4>Conheça mais &nbsp; <img class="seta" src="img/seta.png"></h4>
+			</div>
+
+			<div id="noticias" class="col-lg-4 col-md-12 col-sm-12 noticias">
+				<h2>Últimas notícias</h2>
+
+				<div class="noticias">
+				<h3>20/01/2017</h3>
+				<p>Nulla commodo lorem at elit scelerisque mollis. Maecenas et libero sed purus...</p><hr>
+			</div>
+
+			<div class="noticias">
+				<h3>20/01/2017</h3>
+				<p>Nulla commodo lorem at elit scelerisque mollis. Maecenas et libero sed purus...</p><hr>
+			</div>
+
+			<div class="noticias">
+				<h3>20/01/2017</h3>
+				<p>Nulla commodo lorem at elit scelerisque mollis. Maecenas et libero sed purus...</p>
+			</div>
+
+			<h4 class="float-right">Lista completa &nbsp; <img class="seta" src="img/seta.png"></h4>
+			</div>
+		</div>
+	</div>
+
+	<!--************** PARCEIROS *****************-->
+
+	<div id="parceiros">
+		<div class="container">
+			<h2>Parceiros</h2>
+			<div class="row slider">
+				<div class="col-lg-3">
+					<img src="img/Shape 1.PNG">
+				</div>
+				<div class="col-lg-3">
+					<img src="img/Shape 2.PNG">
+				</div>
+				<div class="col-lg-3">
+					<img src="img/Shape 3.PNG">
+				</div>
+				<div class="col-lg-3">
+					<img src="img/Shape 4.PNG">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!--************** CONTATO *****************-->
+
+	<div id="contato">
+		<h2>Contato</h2><span id="erros" class="invisivel">Favor preencher todos os campos</span>
+		<p>Ut vitae volutpat risus. Nam vitae congue odio, mattis dignissim neque. Nam eros sapien, semper in pellentesque ut, suscipit eu nunc. Donec malesuada egestas ligula, non malesuada sapien suscipit ut. </p>
+
+			<form id="form">
+				<div class="form-row">
+					<div class="col">
+						<label for="nome">Nome*</label>
+						<input type="text" name="nome" placeholder="Nome" class=" form-control form-control-lg nome">
+			
+						<label>E-mail*</label>
+						<input type="email" name="email" placeholder="E-mail" class=" form-control form-control-lg email">
+			
+						<label>Cidade*</label>
+						<input type="text" name="cidade" placeholer="Cidade" class=" form-control form-control-lg cidade">
+
+						<label for="telefone">Telefone*</label>
+						<input type="phone" name="telefone" placeholder="Telefone" class=" form-control form-control-lg phone_with_ddd">
+				</div>
+				<div class="col">
+						<label for="mensagem">Assunto*</label>
+						<input type="text" name="assunto" placeholder="Assunto" class=" form-control form-control-lg assunto">
+
+						<label for="mensagem">Mensagem*</label>
+						<textarea placeholder="Digite aqui sua mensagem..." class=" form-control form-control-lg mensagem"></textarea>
+
+						<button class="float-right botao">Enviar</button>
+				</div>
+		</div>
+	</div>
+
+	<!--************** RODAPÉ *****************-->
+
+
+		<footer id="rodape">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div>
+							<h4><img src="img/logo.png" class="logo"></h4>
+						</div>
+						<div class="redes-sociais">
+							<img src="img/redes-sociais.png">
+						</div>
+						<p class="direitos">&copy;Bakery 2017. Todos direitos reservados.</p>
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<ul class="nav flex-column">
+							<li class="nav-item"><a href="#nav">Home</a></li>
+							<li class="nav-item"><a href="#sobre">Sobre</a></li>
+							<li class="nav-item"><a href="#receitas">Receitas</a></li>
+							<li class="nav-item"><a href="#noticias">Notícias</a></li>
+							<li class="nav-item"><a href="#contato">Contato</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-5 col-md-6 col-sm-12 detalhes">
+						<h3><img src="img/icon-contato.png" class="icon">Contato</h3>
+						<p>(99)99999-9999</p>
+
+						<h3><img src="img/icon-localizacao.png" class="icon">Localização</h3>
+						<p>Nam porttitor diam in eleifend fringilla, 3180</p>
+						<a href="http://www.owinteractive.com/"><img src="img/Shape 7.png" class="ow"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery.js"></script>
+		<script src="slick/slick.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/jquery.mask.min.js"></script>
+		<script src="js/mascara.js"></script>
+		<script src="js/valida-formulario.js"></script>
+</body>
+</html>
+
