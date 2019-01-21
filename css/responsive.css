@@ -141,6 +141,9 @@
 		margin: 0;
 	}
 
+
+	/***********************  MENU DE NAVEGAÇÃO ****************************/
+
 	#nav ul li {
 		position: relative;
 		left: 30%;
@@ -148,6 +151,8 @@
 		padding: 0 10px 0 0;
 	}
 
+
+	/***********************  RECEITAS  ****************************/
 
 	#receitas {
 		width: 100%;
@@ -161,6 +166,8 @@
 		width: 100%;
 	}
 
+	/***********************  SOBRE  ****************************/
+
 	#sobre .container{
 		margin-right: 20%;
 	}
@@ -173,14 +180,20 @@
 		display: none;
 	}
 
+	/***********************  PARCEIROS  ****************************/
+
 	#parceiros {
 		margin-top: 1500px;
 	}
 
 
+	/***********************  CONTATO  ****************************/
+
 	#contato {
 		padding-top: 50px;
 	}
+
+	/***********************  RODAPÉ  ****************************/
 
 	#rodape ul {
 		display: none;
@@ -203,9 +216,12 @@
 }
 
 
-
+	/***********************  RESPONSIVO ENTRE 818 PX E 1000 PX  ****************************/
 
 @media (min-width: 818px) and (max-width: 1000px) {
+
+
+	/***********************  MENU DE NAVEGAÇÃO  ****************************/
 
 	#nav ul li {
 		position: relative;
@@ -214,7 +230,7 @@
 		padding: 0 10px 0 0;
 	}
 
-
+	/***********************  RECEITAS  ****************************/
 	#receitas {
 		width: 100%;
 	}
@@ -226,6 +242,8 @@
 	#receitas ul img {
 		width: 100%;
 	}
+
+	/***********************  SOBRE  ****************************/
 
 	#sobre .container{
 		clear: both;
@@ -242,13 +260,19 @@
 		display: none;
 	}
 
+	/***********************  PARCEIROS  ****************************/
+
 	#parceiros {
 		padding-top: 700px;
 	}
 
+	/***********************  CONTATO  ****************************/
+
 	#contato {
 		padding-top: 300px;
 	}
+
+	/***********************  RODAPE  ****************************/
 
 	#rodape .col-md-3 ul li a {
 		text-align: center;
