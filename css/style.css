@@ -69,7 +69,7 @@ header {
 
 
 #receitas img:hover {
-	transition: 3s;
+	transition: 1s;
 	transform: scale(1.3);
 	border-radius: 20px;
 }
